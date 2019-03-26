@@ -1,0 +1,10 @@
+/**
+* Mixin Object
+* @Description: Used to skip three main lines of CSS and instead write one, i.e., element Width, Height, and Background.
+*/
+
+@mixin object($w, $h, $b) {
+    width: $w;
+    height: $h;
+    background: $b;
+}

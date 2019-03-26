@@ -1,0 +1,23 @@
+/**
+* CyQuest 2019 VIT Bhopal Stylesheet
+* @Author: Ayush Mukherjee
+* @Role: Full Stack Web Developer
+* @Lang: SCSS
+* @License: MIT
+*/
+
+// Import Abstracts
+@import "abstracts";
+
+// Import Base
+@import "base";
+
+// Import Components
+@import "components";
+
+// Vendor Stuffs
+@import "vendor/normalize";
+@import "vendor/animate";
+
+// Import Layouts
+@import "layout";

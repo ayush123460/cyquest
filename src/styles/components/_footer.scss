@@ -1,0 +1,38 @@
+footer {
+    background: #eeeeee;
+
+    .advitya {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        @include object(100%, 100%, $color-black);
+
+        p { margin-top: 50px; color: #FAFAFA; font-family: $font-muller-regular; font-size: 10pt; }
+
+        img { max-width: 500px; width: 100%; }
+    }
+
+    p {
+        line-height: 1.2;
+
+        &.bold {
+            font-weight: 700;
+        }
+    }
+
+    .hr {
+        @include object(100%, 2px, $color-black);
+    }
+
+    .am {
+        font-weight: 700;
+        line-height: 2;
+    }
+
+    .cp {
+        padding: 20px 0;
+        background: darken(#eeeeee, 5%);
+    }
+}

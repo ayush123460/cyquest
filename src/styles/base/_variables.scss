@@ -1,0 +1,15 @@
+/**
+* Sass Variables used throughout.
+*/
+
+// Typography
+$font-montserrat: 'Montserrat', sans-serif; //Montserrat, all weights specified in import.
+$font-muller-hl: 'Muller-Hairline', sans-serif; //Muller Hairline
+$font-muller-ul: 'Muller-UltraLight', sans-serif;   //Muller Ultralight
+$font-muller-regular: 'Muller-Regular', sans-serif; //Muller Regular
+$font-muller-bold: 'Muller-Bold', sans-serif;   // Muller Bold
+
+// Theme Colors(From Material Design by Google)
+$color-primary: #f44336; // Red 500
+$color-accent: #d32f2f; // Red 700
+$color-black: #212121; // Screen safe black color

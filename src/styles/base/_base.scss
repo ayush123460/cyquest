@@ -1,0 +1,27 @@
+/**
+* Base styles for optimal viewing.
+*/
+
+/**
+* Change box sizing to border-box to make sure all elements display margin and padding correctly.
+*/
+
+html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+/**
+* Change global font family to Montserrat.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-montserrat;
+    overflow-x: hidden !important;
+}
